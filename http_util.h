@@ -1,13 +1,7 @@
 /********************************************************************
-	created:	2012/08/02
-	created:	2:8:2012   10:31
+	created:	2016/07/13
 	filename: 	http_util.h
-	file path:	
-	file base:	http_util
-	file ext:	h
-	author:		cg
-	
-	purpose:	如有问题与我联系 QQ: 17448470
+	author:		loyoen
 *********************************************************************/
 
 #pragma once
