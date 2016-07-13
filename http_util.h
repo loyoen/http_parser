@@ -649,7 +649,7 @@ inline int CHttpParser::parse(const char* szHttpReq, int nDataLen, int nExtraPar
 			m_paramParser.parse(m_pszActParam, strlen(m_pszActParam));
 		}
 	}
-	else if(m_pszContent)
+	if(m_pszContent)
 	{
 		if(nExtraParamType == HTTP_UTIL_PARAM_ALL || nExtraParamType == HTTP_UTIL_PARAM_CONTENT)
 		{
